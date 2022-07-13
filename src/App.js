@@ -73,6 +73,7 @@ function App() {
   }
 
   const handleKeyPress = (event) => {
+    event.preventDefault();
     handleLetter(event.key, "keyboard");
   };
 
